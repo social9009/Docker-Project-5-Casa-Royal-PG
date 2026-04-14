@@ -478,7 +478,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);
 <!-- ════════════ HERO ════════════ -->
 <section id="hero">
   <video class="hero-video" autoplay muted loop playsinline
-         poster="images/building-night.jpg">
+         poster="images/main-Building.jpg">
     <source src="video/casa-royale-tour.mp4" type="video/mp4"/>
     <!-- Fallback if video doesn't load -->
   </video>
@@ -529,8 +529,8 @@ footer{background:var(--bg2);border-top:1px solid var(--border);
 <section id="about">
   <div class="about-grid">
     <div class="about-img-wrap reveal-left">
-      <img src="images/building-day.jpg" alt="Casa Royale Building"
-           class="about-img-main" onerror="this.src='images/building-night.jpg'"/>
+      <img src="images/main-Building.jpg" alt="Casa Royale Building"
+           class="about-img-main" onerror="this.src='images/main-Building.jpg'"/>
       <div class="about-img-badge">
         <span class="about-badge-num">1<sup style="font-size:.5em">st</sup></span>
         <span class="about-badge-lbl">In India</span>
@@ -606,8 +606,8 @@ footer{background:var(--bg2);border-top:1px solid var(--border);
     <div class="sec-divider"></div>
   </div>
   <div class="video-wrap reveal">
-    <video class="video-frame" controls poster="images/building-night.jpg" style="width:100%">
-      <source src="video/casa-royale-tour.mp4" type="video/mp4"/>
+    <video class="video-frame" controls poster="images/main-Building.jpg" style="width:100%">
+      <source src="video/main-Building.jpg" type="video/mp4"/>
       Your browser does not support the video tag.
     </video>
     <p class="video-caption">✦ Casa Royale — Complete Property Tour · Hinjewadi, Pune ✦</p>
@@ -638,8 +638,8 @@ footer{background:var(--bg2);border-top:1px solid var(--border);
     <p class="designed-by">Designed by Akshay Sawant</p>
   </div>
   <div class="meal-hero">
-    <img src="images/restaurant-door.jpg" alt="Mama's Stove" class="meal-img reveal-left"
-         onerror="this.src='images/dining-full.jpg'"/>
+    <img src="images/Main-Dining.jpg" alt="Mama's Stove" class="meal-img reveal-left"
+         onerror="this.src='images/Main-Dining.jpg'"/>
     <div class="meal-content reveal-right">
       <div class="restaurant-name">Mama's Stove</div>
       <div class="meal-tagline">Also to Nourish the Senses</div>
@@ -678,9 +678,9 @@ footer{background:var(--bg2);border-top:1px solid var(--border);
     </div>
   </div>
   <div class="meal-gallery reveal">
-    <img src="images/food1.jpg" alt="Meal" class="meal-gal-img"/>
-    <img src="images/buffet.jpg" alt="Buffet" class="meal-gal-img"/>
-    <img src="images/food2.jpg" alt="Meal" class="meal-gal-img"/>
+    <img src="images/meal.jpg" alt="Meal" class="meal-gal-img"/>
+    <img src="images/meal2.jpg" alt="Buffet" class="meal-gal-img"/>
+    <img src="images/meal3.jpg" alt="Meal" class="meal-gal-img"/>
   </div>
 </section>
 
@@ -741,7 +741,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);
   </div>
   <div class="rooms-grid">
     <div class="room-card reveal">
-      <img src="images/room1.jpg" alt="Premium Room" class="room-img"/>
+      <img src="images/Rom1.jpg" alt="Premium Room" class="room-img"/>
       <div class="room-info">
         <div class="room-type">Single Occupancy</div>
         <div class="room-name">Premium Studio</div>
@@ -753,7 +753,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);
       </div>
     </div>
     <div class="room-card reveal">
-      <img src="images/lounge.jpg" alt="Common Room" class="room-img"/>
+      <img src="images/rooom-Interior.jpg" alt="Common Room" class="room-img"/>
       <div class="room-info">
         <div class="room-type">Double Occupancy</div>
         <div class="room-name">Shared Deluxe</div>
@@ -765,7 +765,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);
       </div>
     </div>
     <div class="room-card reveal">
-      <img src="images/corridor.jpg" alt="Corridor" class="room-img"/>
+      <img src="images/rooom-Interior.jpg" alt="Corridor" class="room-img"/>
       <div class="room-info">
         <div class="room-type">Premium Wing</div>
         <div class="room-name">Marble Corridor Floor</div>
@@ -1014,12 +1014,12 @@ document.querySelectorAll('.reveal,.reveal-left,.reveal-right').forEach(el=>revO
 
 // ── GALLERY DATA ────────────────────────
 const galleryItems=[
-  {src:'images/building-night.jpg',lbl:'Building — Night',cat:'exterior'},
-  {src:'images/building-day.jpg',lbl:'Building — Day',cat:'exterior'},
-  {src:'images/building-ad.jpg',lbl:'Casa Royale',cat:'exterior'},
-  {src:'images/brand.png',lbl:'SelvaCASA Brand',cat:'exterior'},
-  {src:'images/room1.jpg',lbl:'Premium Room',cat:'rooms'},
-  {src:'images/lounge.jpg',lbl:'Common Lounge',cat:'common'},
+  {src:'images/main-Building.jpg',lbl:'Building — Night',cat:'exterior'},
+  {src:'images/main.png',lbl:'Building — Day',cat:'exterior'},
+  {src:'images/building3.jpg',lbl:'Casa Royale',cat:'exterior'},
+  {src:'images/building3.jpg',lbl:'SelvaCASA Brand',cat:'exterior'},
+  {src:'images/Rom1.jpg',lbl:'Premium Room',cat:'rooms'},
+  {src:'images/lobby_space.jpg',lbl:'Common Lounge',cat:'common'},
   {src:'images/staircase.jpg',lbl:'Green Staircase',cat:'common'},
   {src:'images/corridor.jpg',lbl:'Marble Corridor',cat:'common'},
   {src:'images/common-area.jpg',lbl:'Recreation Area',cat:'common'},
